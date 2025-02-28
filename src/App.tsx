@@ -30,7 +30,7 @@ const App = () => {
   const [searchParams] = useSearchParams();
 
   const scrollToExplore = () => {
-    const exploreContent = document.getElementById("explore");
+    const exploreContent = document.getElementById("footer");
     if (exploreContent) {
       exploreContent.scrollIntoView({ behavior: "smooth" });
     }
